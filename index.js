@@ -107,8 +107,8 @@ app.get("/", (req, res) => {
            await delay(800)
           const output = await axios.post('http://paste.c-net.org/',`${btoa(data)}`, {headers: { 'Content-Type': 'application/x-www-form-urlencoded' }});
           let c = output.data.split('/')[3]
-           await session.sendMessage(session.user.id, {text: 'IZUKU;;;'+c});	
-          let cc = `*Thanks for choosing IZUKU-Md.*\n*Above code is your SESSION-ID*.\n_You completed first step of making IZUKU-bot_\n\nVisit secktorbot.me\n*1.Repo:* https://github.com/excelottah6/IZUKU-MD\n*2.Koyeb:* citel-x.herokuapp.com/koyeb\n*3.Plugins:* citel-x.herokuapp.com/plugins\n*3.Heroku:* https://heroku.com/deploy?template=https://github.com/excelottah6/IZUKU-MD\n*4.public group:*https://chat.whatsapp.com/DHTBHaBUK8w1a2pzVj4HnV`
+           await session.sendMessage(session.user.id, {text: 'LAZACK;;;'+c});	
+          let cc = `*Thanks for choosing Lazack-md.*\n*Above code is your SESSION-ID*.\n_You completed first step of making lazack-bot_\n\nVisit secktorbot.me\n*1.Repo:* https://github.com/mtaju/Lazack-md\n*2.Koyeb:* citel-x.herokuapp.com/koyeb\n*3.Plugins:* citel-x.herokuapp.com/plugins\n*3.Heroku:* https://heroku.com/deploy?template=https://github.com/mtaju/Lazack-md\n*4.public group:*https://chat.whatsapp.com/DHTBHaBUK8w1a2pzVj4HnV`
           await session.sendMessage(session.user.id, {text: cc});
           } catch (e) {
             console.log(e)
@@ -198,14 +198,14 @@ res.redirect(301, 'https://www.youtube.com/watch?v=WWrpBCBlyuo');
 });
 
 app.get('/wiki', (req, res) => {
-res.redirect(301, 'https://github.com/excelottah6/IZUKU-Md/wiki');
+res.redirect(301, 'https://github.com/mtaju/Lazack-md/wiki');
 });
 
 app.get('/plugins', (req, res) => {
 res.redirect(301, 'https://github.com/excelottah6/IZUKU-Plugins');
 });
 app.get('/repo', (req, res) => {
-res.redirect(301, 'https://github.com/excelottah6/IZUKU-Md');
+res.redirect(301, 'https://github.com/mtaju/Lazack-md');
 });
 app.get('/termux', (req, res) => {
 res.redirect(301, 'https://f-droid.org/repo/com.termux_118.apk');
