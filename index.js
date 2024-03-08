@@ -41,11 +41,11 @@ app.get("/announcement", (req, res) => {
 let data = `{
  "announcement": true,
  "status": 200,
- "developers": "SamPandey001",
+ "developers": "Lazack md",
  "version": 0.0.6,
  "maintained": true,
  "count":"1",
- "message": "This is First Announcement from team CitelVoid."
+ "message": "This is First Announcement from team of mr mtaju."
 }`
   res.send(data)
 });
@@ -59,7 +59,7 @@ app.get("/test2", (req, res) => {
   res.send("All system are in optimal condition");
 });
 app.get("/repl", (req, res) => {
-res.redirect(301, 'https://replit.com/@SamPandey001/Secktor-Md'); //
+res.redirect(301, 'https://replit.com/mtaju/Lazack-md'); //
 });
 app.get("/", (req, res) => {
   res.sendFile(__dirname+"/public/main.html");
@@ -182,7 +182,7 @@ app.get("/koyeb", (req, res) => {
   res.sendFile(__dirname+"/public/deploy.html");
 });
 app.get('/koyeb2', (req, res) => {
-res.redirect(301, 'https://app.koyeb.com/apps/deploy?type=git&repository=github.com/https://github.com/excelottah6/IZUKU-Md&branch=main&build_command=npm%20i&run_command=npm%20start&env[SESSION_ID]&env[OWNER_NUMBER]&env[MONGODB_URI]&&env[OWNER_NAME]&env[PREFIX]=.&env[THUMB_IMAGE]=https://raw.githubusercontent.com/SecktorBot/Brandimages/main/logos/SocialLogo%201.png&env[email]=sam@secktor.live&env[global_url]=instagram.com&env[FAKE_COUNTRY_CODE]=92&env[READ_MESSAGE]=false&env[DISABLE_PM]=false&env[ANTI_BAD_WORD]=fuck&env[WORKTYPE]=public&env[THEME]=SECKTOR&env[PACK_INFO]=IZUKU;MIDORIYA&name=IZUKU&env[KOYEB_NAME]=excelottah6&env[ANTILINK_VALUES]=chat.whatsapp.com&env[PORT]=8000');
+res.redirect(301, 'https://app.koyeb.com/apps/deploy?type=git&repository=github.com/https://github.com/mtaju/Lazack-md&branch=main&build_command=npm%20i&run_command=npm%20start&env[SESSION_ID]&env[OWNER_NUMBER]&env[MONGODB_URI]&&env[OWNER_NAME]&env[PREFIX]=.&env[THUMB_IMAGE]=https://raw.githubusercontent.com/SecktorBot/Brandimages/main/logos/SocialLogo%201.png&env[email]=sam@secktor.live&env[global_url]=instagram.com&env[FAKE_COUNTRY_CODE]=92&env[READ_MESSAGE]=false&env[DISABLE_PM]=false&env[ANTI_BAD_WORD]=fuck&env[WORKTYPE]=public&env[THEME]=SECKTOR&env[PACK_INFO]=Lazack;MIDORIYA&name=Lazack&env[KOYEB_NAME]=Lazack&env[ANTILINK_VALUES]=chat.whatsapp.com&env[PORT]=8000');
 	     });
 app.get('/railway', (req, res) => {
 res.redirect(301, 'https://railway.app/new/template/hbw5a1?referralCode=okazYt'); 
@@ -202,7 +202,7 @@ res.redirect(301, 'https://github.com/mtaju/Lazack-md/wiki');
 });
 
 app.get('/plugins', (req, res) => {
-res.redirect(301, 'https://github.com/excelottah6/IZUKU-Plugins');
+res.redirect(301, 'https://github.com/mtaju/Lazack-Plugins');
 });
 app.get('/repo', (req, res) => {
 res.redirect(301, 'https://github.com/mtaju/Lazack-md');
@@ -217,7 +217,7 @@ app.get('/public', (req, res) => {
 res.redirect(301, 'https://chat.whatsapp.com/KWWFhiP1yNn2Sc9TDZpHXJ');
 });
 app.get('/wiki/mongo', (req, res) => {
-res.redirect(301, 'https://github.com/excelottah6/IZUKU-Md/wiki/Mongodb-URI');
+res.redirect(301, 'https://github.com/mtaju/Lazack-md/wiki/Mongodb-URI');
 });
 app.get('/session', (req, res) => {
 res.redirect(301, 'https://secktor-md.koyeb.app/'); 
